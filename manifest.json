@@ -1,0 +1,35 @@
+{
+	"name": "Hello",
+	"imports": [
+		{
+			"name": "hello",
+			"filename": "message.js"
+		}
+	],
+	"components": [
+		{
+			"name": "hello",
+			"filename": "hello-component.js"
+		}
+	],
+	"pages": [
+		{
+			"name": "hello-app-page",
+			"filename": "hello-app-page.js"
+		}
+	],
+	"middlewares": [
+		{
+			"name": "hello-file",
+			"filename": "hello-middleware.js"
+		}
+	],
+	"menu": [
+		{
+			"name": "hello",
+			"label": "Hello menu",
+			"icon": "mdi:human-hello-variant",
+			"filename": "hello-sidebar.js"
+		}
+	]
+}
